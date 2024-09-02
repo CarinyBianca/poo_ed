@@ -1,6 +1,6 @@
 package projetoLivraria;
 
-public class Livraria2 {
+public class Livro2 {
     public static void main(String [] args){
         Livro obj2 = new Livro(50, "A culpa é das estrelas");
         obj2.titulo = "A culpa é das estrelas";

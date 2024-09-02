@@ -1,11 +1,30 @@
 package projetoLivraria;
-public class Livraria{
-    public static void main(String [] args){
-        Livro obj1 = new Livro(47.42, "Harry potter" );
-        obj1.titulo = "Harry potter";
-        obj1.numeroPaginas = 304; 
-        obj1.anoPublicacao = 1997; 
-        obj1.preco = 47.42;
 
+public class Livraria{
+    public Livro(double preco, String titulo){
+    this.preco = preco;
+    this.titulo = titulo;}
+    
+    public String titulo;
+    public int numeroPaginas;
+    public String genero;
+    public int anoPublicacao;
+    public double preco;
+    public String autor;
+
+    void cadastrar(){
+        System.out.printf("cadastrar o Livro");
+    }
+    void vender(){
+        System.out.println();
+    }
+    String trocar() {
+        return "";
+    }
+
+        double calcFrete(String cep){
+        double frete = 0;
+        System.out.printf("Calculando o frete para o CEP" + cep);
+        return frete;
     }
 }
