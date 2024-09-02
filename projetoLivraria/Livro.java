@@ -1,10 +1,16 @@
 package projetoLivraria;
 
 public class Livro{
-    String titulo;
-    int numeroPaginas;
-    int anoPublicacao;
-    double preco;
+    public Livro(double preco, String titulo){
+    this.preco = preco;
+    this.titulo = titulo;}
+    
+    public String titulo;
+    public int numeroPaginas;
+    public String genero;
+    public int anoPublicacao;
+    public double preco;
+    public String autor;
 
     void cadastrar(){
         System.out.printf("cadastrar o Livro");

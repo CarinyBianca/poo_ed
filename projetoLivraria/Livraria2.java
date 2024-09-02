@@ -2,7 +2,7 @@ package projetoLivraria;
 
 public class Livraria2 {
     public static void main(String [] args){
-        Livro obj2 = new Livro();
+        Livro obj2 = new Livro(50, "A culpa é das estrelas");
         obj2.titulo = "A culpa é das estrelas";
         obj2.numeroPaginas = 200;
         obj2.anoPublicacao = 2012;
